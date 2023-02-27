@@ -1,21 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Titillium+Web:wght@600&display=swap');
-
+/*
 font-family: 'Quicksand', sans-serif;
 font-family: 'Titillium Web', sans-serif;
+*/
 
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+}
 
 body{
     font-family: 'Quicksand', sans-serif;
-    color:cornsilk;    
+    color: grey; 
+    background-color: #edeced;   
 }
 
 header {
-    background-color: crimson;
+    background-color: #676767;
 }
-header .grid-layout {
+.grid-layout {
     width: 80%;
     margin: 0 auto;
-    background-color: cyan;
+    background-color: aliceblue;
 }
 header .header-flex {
     display: flex;
@@ -45,4 +52,28 @@ header nav{
 header nav a{
     color: white;
     text-decoration: none;
+}
+
+#lapis{
+    width: 100%;
+}
+
+main .colunas-flex {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .coluna1 {
+    width: 75%;
+    background-color: white;
+}
+
+main .coluna2 {
+    width: 23%;
+}
+
+main .coluna2 article {
+    margin-bottom: 20px;
+    background-color: white;
 }
